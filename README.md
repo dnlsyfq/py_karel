@@ -40,6 +40,7 @@ YELLOW
 ```
 
 |Command|	What it does|
+|---|---|
 |paint_corner(COLOR_NAME)|	Karel colors the corner he's standing on COLOR_NAME. For example, to color the corner blue, you would write paint_corner(BLUE).|
 |corner_color_is(COLOR_NAME)|	A condition checking this question: Is the color of the corner Karel is standing on COLOR NAME?|
 
