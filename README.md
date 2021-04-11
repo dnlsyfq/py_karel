@@ -20,3 +20,26 @@
 |facing_south()|	not_facing_south()	|Is Karel facing south?|
 |facing_east()	|not_facing_east()|	Is Karel facing east?|
 |facing_west()	|not_facing_west()|	Is Karel facing west?|
+
+Karel also has the ability to paint corners in its world with the following colors:
+```
+BLANK, which removes any color on the square
+BLACK
+BLUE
+CYAN
+DARK_GRAY
+GRAY
+GREEN
+LIGHT_GRAY
+MAGENTA
+ORANGE
+PINK
+RED
+WHITE
+YELLOW
+```
+
+|Command|	What it does|
+|paint_corner(COLOR_NAME)|	Karel colors the corner he's standing on COLOR_NAME. For example, to color the corner blue, you would write paint_corner(BLUE).|
+|corner_color_is(COLOR_NAME)|	A condition checking this question: Is the color of the corner Karel is standing on COLOR NAME?|
+
